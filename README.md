@@ -24,6 +24,9 @@ Developed by: Ramya P
 
 RegisterNumber: 212223230168 
 
+
+
+
 ~~~
 import numpy as np
 import pandas as pd
@@ -44,6 +47,8 @@ print(df.head())
 ## Output:
 ![image](https://github.com/user-attachments/assets/7fe44e36-3a45-4178-98a3-29f103f2fb1e)
 
+
+
 ~~~
 X = df.drop(columns=['AveOccup','HousingPrice'])
 Y=df[['AveOccup','HousingPrice']]
@@ -55,6 +60,7 @@ X_test = scaler_X.transform(X_test)
 Y_train = scaler_Y.fit_transform(Y_train)
 Y_test = scaler_Y.transform(Y_test) 
 ~~~
+
 
 ~~~
 sgd = SGDRegressor(max_iter=1000, tol=1e-3)
