@@ -20,9 +20,9 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Program:
 
-Developed by: Ramya P
+Developed by: jenil pio j
 
-RegisterNumber: 212223230168 
+RegisterNumber: 212223220040
 
 
 
